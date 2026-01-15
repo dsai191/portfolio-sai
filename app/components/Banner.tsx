@@ -140,8 +140,8 @@ export default function Banner(): React.JSX.Element {
           <p className="text-lg lg:text-xl text-white/90 tracking-wide flex flex-wrap items-center justify-center lg:justify-start gap-2">
             <span>Currently, I&apos;m an intern at</span>
             <span className="flex items-center gap-2">
-              <Image src="/assets/webhr.webp" alt="the entrepreneur network" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
-              <span className="text-blue-400 font-semibold">THE ENTREPRENEURSHIP NETWORK,</span>
+              <Image src="/assets/TEN.webp" alt="TEN" width={20} height={20} className="w-5 h-5" style={{ width: "auto", height: "auto" }} />
+              <span className="text-blue-400 font-semibold">THE ENTREPRENEURSHIP NETWORK</span>
             </span>
           </p>
           <p className="text-lg text-white/80 max-w-2xl mt-15 mx-auto lg:mx-0">
