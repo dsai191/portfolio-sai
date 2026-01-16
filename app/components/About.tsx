@@ -12,7 +12,7 @@ export default function About(): React.JSX.Element {
           </p>
         </div>
         <Image 
-          src="c:\Users\Sai Kiran\Figma-Portfolio-main\public\assets\Skills.png"
+          src="/assets/illustration.png"
           alt="Skills"
           width={800}
           height={800}
