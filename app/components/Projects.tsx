@@ -5,15 +5,13 @@ interface Project {
   title: string;
   description: string;
   image: string;
-  link?: string;
 }
 
 const featuredProjects: Project[] = [
   {
     id: 1,
-    title: "self-thaught web developer",
-    description: "Built multiple responsive layouts using React and TailwindCSS, Converted Figma designs into working components, Deployed personal portfolio using GitHub Pages, Explored animation hooks and scroll effects for modern UX",
-    link: "https://www.figma.com/community/file/1441377868897233703/ai-website-landing-design",
+    title: "Solar-Powered PMU for Wireless Sensor Node",
+    description: "A concept design showcasing a power management unit for solar energy harvesting, enabling batteryless operation of wireless sensor nodes. Built for ultra-low power environments and smart energy flow.",
     image: "/projects/project-1.png",
   },
 ];
