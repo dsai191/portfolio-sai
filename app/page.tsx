@@ -2,7 +2,7 @@ import Header from "./components/Header";
 import Banner from "./components/Banner";
 import Experience from "./components/Experience";
 import About from "./components/About";
-import projects from "./components/Projects";
+import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 
 export default function Home(): React.JSX.Element {
