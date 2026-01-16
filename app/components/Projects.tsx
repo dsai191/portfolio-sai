@@ -46,35 +46,7 @@ export default function Projects(): React.JSX.Element {
                       </p>
                     </div>
                   </div>
-                  {/* Website link */}
-                  {project.link && (
-                    <div className="flex gap-4">
-                      <a
-                        href={project.link}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-white hover:text-purple-400 transition-colors duration-200"
-                        aria-label="Visit project website"
-                      >
-                        <svg
-                          xmlns="http://www.w3.org/2000/svg"
-                          viewBox="0 0 24 24"
-                          fill="none"
-                          stroke="currentColor"
-                          strokeWidth="2"
-                          strokeLinecap="round"
-                          strokeLinejoin="round"
-                          className="w-6 h-6"
-                        >
-                          <circle cx="12" cy="12" r="10" />
-                          <line x1="2" y1="12" x2="22" y2="12" />
-                          <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
-                        </svg>
-                      </a>
-                    </div>
-                  )}
                 </div>
-
                 {/* Image Content */}
                 <div className={`${isEven ? "lg:col-start-1 lg:row-start-1" : ""}`}>
                   <div className="relative w-full aspect-[4/3] rounded-2xl overflow-hidden bg-slate-950 p-2 lg:p-3 shadow-2xl">
